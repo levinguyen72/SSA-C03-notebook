@@ -1,0 +1,1 @@
+*ARN*: AWS resource names 
