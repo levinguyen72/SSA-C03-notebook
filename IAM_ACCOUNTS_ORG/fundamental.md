@@ -53,9 +53,12 @@
 - Never share IAM users & Access keys
 # Summary 
 - Users: mapped to a physical user, has a password
-- Groups: contains users only
+- Groups: contains users only, can hold identity permissions
 - Policies: JSON document that outlines permission for users or groups
 - Roles: for EC2 instances for AWS services
 - security: MFA + Password policy
 - Access keys: access AWS using the CLI or SDK
 - Audit: IAM Credential Reports & IAM Access advisor
+- IAM policy types: AWS managed Policies, Customer managed policies, inline policies
+- IAM user limit in an account 5000
+- IAM role is assigned Trust Policies and Permission Policies
